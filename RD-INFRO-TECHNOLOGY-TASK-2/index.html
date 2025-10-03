@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Aditya's Grocery Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Aditya's Grocery Shop</h1>
+    <!-- Navigation Section -->
+    <nav>
+      <input type="text" placeholder="Search products..." />
+      <button>Search</button>
+      <a href="#products">product</a>
+      <a href="#login">Login</a>
+      <a href="#contact">Contact</a>
+      <a href="#feedback">feedback</a>
+    </nav>
+  </header>
+  <hr>
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- Products -->
+      <div class="product-card">
+        <img src="./Fresh fruits.jpg" alt="fruits"/>
+        <h3>Fresh fruits</h3>
+        <p>₹120/kg</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./Dairy Products.jpg" alt="dairy"/>
+        <h3>Dairy Products</h3>
+        <p>₹100-₹1000/kg</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./Fresh vegetables.jpg" alt="vegetables" />
+        <h3>Fresh vegetables</h3>
+        <p>₹50/kg</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./chocolate.webp" alt="chocolate" />
+        <h3>Sweet chocolate</h3>
+        <p>₹10-₹1000</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Login Section -->
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <!-- Developer Section -->
+  <section id="feedback">
+    <h2>Feedback for Developer</h2>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <textarea placeholder="Suggestions or bugs..."></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Aditya | Built with Aditya Khakare :) using Python, HTML & CSS </p>
+  </footer>
+</body>
+</html>
